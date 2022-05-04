@@ -25,6 +25,14 @@
     margin: 0 0 0 auto;
 }
 
+
+
+/*연습*/
+.header .gnb>a{
+    display: none;
+
+}
+
 .header .gnb>ul {
     display: flex;
     gap: 30px;
@@ -288,8 +296,8 @@
 
 .main_link figure a {
     position: absolute;
-    top: 50%;
-    right: 30%;
+    top: 55%;
+    right: 10%;
     width: 60px;
     height: 60px;
     background: rgba(148, 111, 0, 0.502);
@@ -393,6 +401,12 @@ responsive 768
         transition: 0.5s;
     }
 
+
+    /*연습*/
+    .header .gnb>a{
+        display: block;
+    }
+
     .header .gnb.on{
         left: 0;
     }
@@ -401,7 +415,7 @@ responsive 768
         display: flex;
         flex-direction: column;
         gap: 0;
-        padding: 50px 15px;
+        padding: 20px 15px;
         line-height: 40px;
         font-size: 19px;
         font-weight: 500;
@@ -439,7 +453,7 @@ responsive 768
     }
 
     /*.main_slider .itm {
-        height: 300px;
+        height: ;
     }*/
     
     /*부산청소*/
@@ -679,8 +693,8 @@ responsive 768
     
     .main_link figure a {
         position: absolute;
-        top: 50%;
-        right: 30%;
+        top: 62%;
+        right: 10%;
         width: 60px;
         height: 60px;
         background: rgba(148, 111, 0, 0.502);
