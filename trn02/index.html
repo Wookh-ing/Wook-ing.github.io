@@ -7,8 +7,16 @@
     <title>김정욱 홈페이지</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/jquery.mb.YTPlayer.min.css">
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script> aos 적용 실패-->
     <link rel="stylesheet" href="./css/main.css">
 </head>
+
+<script>
+    AOS.init();
+</script>
 
 <body>
     <div class="Wrap">
@@ -85,7 +93,7 @@
                 </div>
             </section>
 
-            <section>
+            <!-- <section>-main link 연습
                 <div class="text">
                     <h2>JEWELLERY COLLECTION</h2>
                     <p>모던하면서도 클래식한 디자인들을 완벽하게 표현한 그라프 하우스의 시그너쳐 컬렉션은 다양한 컷</p>
@@ -123,7 +131,102 @@
                         <a href="">구매하기</a>
                     </figure>
                 </div>
+            </section> -->
+            <section class="basic">
+                <h2>JEWELLERY COLLECTION</h2>
+                <p>모던하면서도 클래식한 디자인들을 완벽하게 표현한 그라프 하우스의 시그너쳐 컬렉션은 다양한 컷</p>
+                <div class="container">
+                    <figure>
+                        <div class="inbox">
+                            <img src="./img/lesedilarona01.jpg" alt="">
+                        </div>
+                        <strong>스톤 그리고 색상들을 멋진 조합</strong>
+                        <a href="">more</a>
+                    </figure>
+                    <figure>
+                        <div class="inbox">
+                            <img src="./img/lesedilarona02.jpg" alt="">
+                        </div>
+                        <strong>스톤 그리고 색상들을 멋진 조합</strong>
+                        <a href="">the more</a>
+                    </figure>
+                    <figure>
+                        <div class="inbox">
+                            <img src="./img/lesedilarona03.jpg" alt="">
+                        </div>
+                        <strong>스톤 그리고 색상들을 멋진 조합</strong>
+                        <a href="">more</a>
+                    </figure>
+
+                    
+                </div>
             </section>
+
+            <section class="fixed_bg">
+                <h2>JEWELLERY COLLECTION</h2>
+                <p>모던하면서도 클래식한 디자인들을 완벽하게 표현한 그라프 하우스의 시그너쳐 컬렉션은 다양한 컷</p>
+                <span>more</span><i class="xi-arrow-right"></i>
+            </section>
+
+            <section class="movie">
+                <div class="container">
+                    <figure>
+                        <video src="./img/movie.mp4" muted autoplay loop></video>
+                    </figure>
+                    <div class="dec">
+                        <h2>JEWELLERY COLLECTION</h2>
+                        <p>모던하면서도 클래식한 디자인들을 완벽하게 표현한 그라프 하우스의 시그너쳐 컬렉션은 다양한 컷</p>
+                        <i class="xi-play"></i><i
+                        class="xi-pause"></i>
+                    </div>
+                </div>
+            </section>
+            <section class="utube">
+                <h2>JEWELLERY COLLECTION</h2>
+                <p>모던하면서도 클래식한 디자인들을 완벽하게 표현한 그라프 하우스의 시그너쳐 컬렉션은 다양한 컷</p>
+                <i class="xi-play"></i>
+                <i class="xi-pause"></i>
+                <div class="player" id="myMovie">
+                </div>
+            </section>
+
+            <section class="sub_slider">
+                <h2>PERFUME COLLECTION</h2>
+                <p>모던하면서도 클래식한 디자인들을 완벽하게 표현한 그라프 하우스의 시그너쳐 컬렉션은 다양한 컷</p>
+                <div class="sub_slide">
+                    <figure>
+                        <img src="./img/lesedilarona01.jpg" alt="">
+                        <strong>PERFUME COLLECTION</strong>
+                    </figure>
+                    <figure>
+                        <img src="./img/lesedilarona02.jpg" alt="">
+                        <strong>PERFUME COLLECTION</strong>
+                    </figure>
+                    <figure>
+                        <img src="./img/lesedilarona03.jpg" alt="">
+                        <strong>PERFUME COLLECTION</strong>
+                    </figure>
+                    <figure>
+                        <img src="./img/lesedilarona04.jpg" alt="">
+                        <strong>PERFUME COLLECTION</strong>
+                    </figure>
+                    <figure>
+                        <img src="./img/lesedilarona05.jpg" alt="">
+                        <strong>PERFUME COLLECTION</strong>
+                    </figure>
+                    <figure>
+                        <img src="./img/lesedilarona06.jpg" alt="">
+                        <strong>PERFUME COLLECTION</strong>
+                    </figure>
+                    
+                    
+
+                </div>
+                <i class="xi-arrow-left"></i>
+                <i class="xi-arrow-right"></i>
+            </section>
+            
+
         </main>
         <footer class="footer">
 
@@ -135,6 +238,7 @@
 
     <script src="./js/jquery-1.12.4.min.js"></script>
     <script src="./js/slick.min.js"></script>
+    <script src="./js/jquery.mb.YTPlayer.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
 

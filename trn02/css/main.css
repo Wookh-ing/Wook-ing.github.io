@@ -220,7 +220,7 @@ nav>ul>li~li::before {
     display: none;
 }
 
-.text{
+/* .text{ main link -연습, 애매할때는 border: px solid color
     display: block;
     width: 1200px;
     margin: 100px auto 30px auto;
@@ -290,10 +290,241 @@ nav>ul>li~li::before {
 .main_link a:hover{
     color: #fff;
     background: #f00;
+}*/
+
+.basic {
+    padding: 100px 0;
+    text-align: center;
+}
+
+/* .dtainer { -float 으로 가로정렬
+    width: 1230px;
+    margin: 0 auto;
+
+}
+
+.dtainer::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.dtainer figure {
+    float: left;
+    width: 33.33333333%;
+    padding: 0 15px;
+}
+
+.dtainer figure img {
+    max-width: 100%;
+} */
+/* flex 이용 */
+.basic .container {
+    gap: 30px;
+}
+
+section h2 {
+    font-size: 21px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    letter-spacing: 10px;
+}
+
+section p {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0 0 30px 0;
+    letter-spacing: 1px;
+}
+
+.basic figure{
+    flex: 1;
+    overflow: hidden;
+}
+
+.basic figure .inbox {
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.5s;
+    margin: 0 0 30px 0;
+}
+
+.basic figure:hover .inbox {
+    border-radius: 50% 50% 50% 50% / 86% 86% 14% 14%;
+    transition: 0.5s;
+}
+
+.basic figure img{
+    transition: 0.5s;
+}
+
+.basic figure:hover img{
+    transform: scale(1.5);
+}
+
+.basic figure strong {
+    display: block;
+    margin: 0 0 20px 0;
+}
+
+.basic figure a{
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 5px 20px 10px 20px;
+}
+.basic figure a:hover {
+    background: #f00;
+}
+
+.fixed_bg {
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(../img/mainvisual03.jpg) no-repeat fixed center center/cover;
+    /* background-attachment: fixed; */
+    filter: grayscale(1);
+    /* 흑백 */
+}
+
+.fixed_bg i {
+    padding: 10px;
+    background: #333;
+    margin: 5px 0 0 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+    cursor: pointer;
+}
+/* vertical-align: middle; 적용하려는 두곳에 */
+.fixed_bg span {
+    vertical-align: middle;
+}
+
+.movie {
+    padding: 100px 0;
+
+}
+
+.movie .container {
+    gap: 50px;
+}
+
+.movie .container figure {
+    flex: 1;
+}
+
+.movie .container .dec {
+    flex: 1;
+    padding: 100px 0;
+}
+
+.movie video {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.movie .dec i {
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border-radius: 50%;
+    margin: 0 5px 0 0 ;
+}
+
+.utube {
+    padding: 150px 0;
+    text-align: center;
+    color: #fff;
+    filter: grayscale(1);
+}
+
+.utube i {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 0 2px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.sub_slider {
+    /* border: 1px solid #333; */
+    padding: 100px 0;
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.sub_slide strong {
+    display: flex;
+    margin-left: 15px;
+    
 }
 
 
-    
+.sub_slider .sub_slide {
+    display: flex;
+    gap: 15px;
+
+}
+
+.sub_slider .sub_slide figure img {
+    width: 200px;
+    height: 200px;
+    gap: 15px;
+}
+
+.sub_slide .slick-dots {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sub_slide .slick-dots li {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: #333;
+    margin: 0 3px;
+    border-radius: 50%;
+}
+
+
+
+.sub_slide .slick-dots li.slick-active {
+    background: #f00;
+}
+
+.sub_slide .slick-dots button {
+    display: none;
+}
+
+.sub_slider i.xi-arrow-left {
+    position: absolute;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    top: 3300px;
+    left: 250px;
+    font-size: 25px;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.sub_slider i.xi-arrow-right {
+    position: absolute;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    top: 3300px;
+    right: 250px;
+    font-size: 25px;
+    color: #fff;
+    border-radius: 50%;
+}
+
+
+
+
+
 
 
 

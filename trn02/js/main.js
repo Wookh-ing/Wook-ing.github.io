@@ -19,6 +19,51 @@ $(function(){
         pauseOnFocus: false,
     });
 
+    $('.movie .dec i:nth-of-type(1)').on('click', function(){
+        $('.movie video').trigger('play')
+    })
+
+    $('.movie .dec i:nth-of-type(2)').on('click', function(){
+        $('.movie video').trigger('pause')
+    })
+
+    $('#myMovie').YTPlayer ({
+                    videoURL:'https://www.youtube.com/watch?v=OANMHhMdUqs', 
+                    containment:'.utube',
+                    autoPlay:true, 
+                    mute:true, 
+                    startAt:0,
+                    opacity:1,
+                    showControls: false,
+                    playOnlyIfVisible: true,    
+                });
+
+    $('.utube i:nth-of-type(1)').on('click', function(){
+        $('#myMovie').YTPPlay();
+    });
+    
+    $('.utube i:nth-of-type(2)').on('click', function(){
+        $('#myMovie').YTPPause();
+    });
+
+        $('.sub_slide').slick({
+            infinite: true,
+            slidesToShow: 5,
+            slideToScroll: 1,
+            arrows: false,
+            dots: true,
+            autoplay: true,
+
+        });
+
+    $('.sub_slider i.xi-arrow-left').on('click',function(){
+        $('.sub_slide').slick('slickPrev')
+    });
+    $('.sub_slider i.xi-arrow-right').on('click',function(){
+        $('.sub_slide').slick('slickNext')
+    })
+
+
     
 
 
