@@ -729,6 +729,49 @@ section p {
     margin: 0 5px 0 0 ;
 }
 
+
+@media (max-width : 768px){
+        .movie {
+
+            padding: 0 0 400px 0;
+    
+        }
+    
+        .movie .container {
+            gap: 50px;
+        }
+    
+        .movie .container figure {
+            flex: 1;
+        }
+    
+        .movie .container .dec {
+            flex: 1;
+            padding: 100px 0;
+        }
+    
+        .movie video {
+            position: relative;
+            max-width: 100%;
+            border-radius: 10px;
+            top: 300px;
+        }
+
+        .movie .dec {
+            position: absolute;
+            text-align: center;
+        }
+    
+        .movie .dec i {
+            padding: 10px;
+            background: #333;
+            color: #fff;
+            border-radius: 50%;
+            margin: 0 5px 0 0;
+            
+        }
+}
+
 .utube {
     padding: 150px 0;
     text-align: center;
