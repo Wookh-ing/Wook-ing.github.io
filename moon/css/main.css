@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+
+    background-image: url(../image/Sunset\,\ minimal\,\ starry\ sky\,\ beautiful\,\ 720x1280\ wallpaper.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f3f3f3;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 100px 0;
+}
+
+.header .gnb {
+    line-height: 100px;
+}
+
+.header .gnb nav {
+    margin: 0 0 0 auto;
+}
+
+nav>ul {
+    display: flex;
+    
+}
+
+nav>ul>li~li::before {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 13px;
+    background: #fff;
+    margin: 0 20px;
+}
+
+.header img{
+    max-width: 20%;
+    border-radius: 10%;
+}
+
+.header strong {
+    font-size: 50px;
+    font-weight: 900;
+    
+    
+}
+
+.main_visual figure {
+    position: relative;
+    height: 600px;
+}
+
+.main_visual .item01 {
+    background: url(../image/1.png) no-repeat center center/cover;
+}
+.main_visual .item02 {
+    background: url(../image/2.png) no-repeat center center/cover;
+}
+.main_visual .item03 {
+    background: url(../image/3.png) no-repeat center center/cover;
+}
+
+.main_visual .container {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #000;
+}
+
+.main_visual .container h3 {
+    font-size: 80px;
+    font-weight: 900;
+    padding: 0 0 500px 0;
+    text-shadow: 0 0 5px #fff;
+}
+
+
+.main_visual .container i {
+    font-size: 50px;
+    text-shadow: 0 0 5px #fff;
+}
+
+.main_visual figure h3 {
+    transform: translateY(100px);
+    opacity: 1;
+}
+
+.main_visual figure .on h3 {
+    transform: translateY(0);
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.main_visual figure a {
+    transform: translateX(100px);
+    opacity: 0;
+}
+
+.main_visual figure.on a {
+    transform: translateX(0);
+    opacity: 1;
+    transition: 0.5s 0.5s;
+
+}
+
+.main_visual .slick-dots{
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main_visual .slick-dots li {
+    display: inline-block;
+    width: 80px;
+    height: 5px;
+    background: #3771BB;
+    margin: 0 5px;
+}
+
+.main_visual .slick-dots li::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+    background: #FFE8BC;
+}
+
+.main_visual .slick-dots li.slick-active::after {
+    width: 100%;
+    transition: 3s;
+}
+
+.main_visual .slick-dots button {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
