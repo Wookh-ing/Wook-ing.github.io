@@ -73,6 +73,14 @@ $(function(){
        dots: true,
        autoplay: true,
        autoplaySpeed: 1000,
+       responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+      }
+    },
+  ]
    });
 
    $('.product_list .s_left').on('click', function(){
@@ -93,6 +101,11 @@ $(function(){
        var lik = $(this).val();
        if (lik) window.open(lik)
     //    새창띄우기 window.open 
+   })
+
+   $('.mbtn').on('click', function () {
+       $('nav').toggleClass('on');
+       $(this).toggleClass('is-active');
    })
 
 

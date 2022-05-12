@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="./css/jquery.mb.YTPlayer.min.css">
+    <link rel="stylesheet" href="./css/hamburgers.css">
     <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script> aos 적용 실패-->
@@ -42,6 +43,11 @@
                             <li><a href="">특별한 솔리테어</a></li>
                         </ul>
                     </nav>
+                    <button class="hamburger mbtn hamburger--3dx" type="button">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
                     <form action="javascript:formSubmit()" id="searchForm">
                         <input type="text">
                         <button>
@@ -169,7 +175,8 @@
             <section class="movie">
                 <div class="container">
                     <figure>
-                        <video src="./img/movie.mp4" muted autoplay loop></video>
+                        <video src="./img/movie.mp4" muted autoplay loop playsinline></video>
+                        <!-- playsinline - iphone 작동위해 -->
                     </figure>
                     <div class="dec">
                         <h2>JEWELLERY COLLECTION</h2>
@@ -417,6 +424,7 @@
                     <li><a href="">그라프 하우스 소개</a></li>
                 </ul>
                 <div class="sns">
+                    <!-- a href="" ""사이에 #!를 넣어놓으면 클릭은 가능하나 이동 x -->
                     <a href=""><i class="xi-kakaotalk"></i></a>
                     <a href=""><i class="xi-facebook"></i></a>
                     <a href=""><i class="xi-naver"></i></a>
