@@ -1,0 +1,21 @@
+이클립스 다운로드
+
+자바 버전 확인후 윈도우 버전 다운로드.
+
+다운로드 후 이클립스 첫 실행시 워크스페이스(작업공간) 설정 해야한다.
+
+이때 작업공간폴더의 이름은 영어로 설정.
+
+이클립스 실행후 window -> preferences -> font 검색 -> colors and fonts 에서 text font 찾아
+폰트 설정 -> apply,
+
+encoding 검색 -> work space -> 아래에 utf-8로 설정할것
+
+creat java project -> 프로잭트 이름 설정 -> 버전 확인 -> next
+
+디버깅 하는법 -> 차트 왼쪽부위 파란 영역 더블클릭 -> 좌측상단 벌레모양 클릭
+
+ctrl + space 기억
+
+window -> perspective -> reset perspective 이클립스 보여지는 창이 정렬이 안되었을때? 원하는
+창들이 없을때 초기화 하는 방법.
