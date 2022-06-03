@@ -262,4 +262,41 @@ static => 정적
 
 --------------------------
 
+public class Main {
+	
+int number;		 
+static int staticNumber; 
+			 	
+public void print() {    
+	System.out.println("non-static");
+}
+		
+public static void printStatic() {
+	System.out.println("Static");
+			
+			
+}
+public static void main(String[] args) {
+	Main main = new Main();
+	Main main2 = new Main();
+	Main main3 = new Main();
+	Main main4 = new Main();
+}
+// int main = 동적
+// static 정적
+// 동적인 것들은 문장을 만나야 끝에서 이루어진다(main 안에서 문장을 시작한다.)
+// 정적인 것들은 	(main 아닌곳에서도 문장을 시작한다.)
 
+static 변수는 기울어진 글자로 표시된다
+
+
+ex)
+class Student { 학생마다 가지고있는 클래스가 아닌 학생 전체가 가지는 클래스
+	static String name;
+	static int kor;
+}
+
+class Student2 { 학생 하나하나가 다른 클래스를 가짐
+	String name;
+	int kor;
+}
