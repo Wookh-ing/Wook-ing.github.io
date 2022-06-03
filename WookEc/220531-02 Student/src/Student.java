@@ -62,6 +62,9 @@ public class Student {
 			return (kor + eng + math);
 		}
 		
-		
+		// ------------------ 비교한다 각각의 평균을
+		public boolean compare(Student other) {
+			return this.getAverage() >= other.getAverage();
+		}
 		
 }

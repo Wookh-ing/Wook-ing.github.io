@@ -18,8 +18,9 @@ public class TestStudentManagement {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int input = 0;
+		//
 		int cnt = 0;
-		
+		//
 		Student stuA = new Student();
 		Student stuB = new Student();
 		Student stuC = new Student();
@@ -62,31 +63,17 @@ public class TestStudentManagement {
 			} else if (input == 3) {
 				claA.printAvg();
 			} else if (input == 4) {
-				claA.printAvg();
+				claA.printPotg();
 			} else if (input == 5) {
 				System.out.println("시스템 종료");
-			} else {
+			} else if (cnt >= 3) {
+                System.out.println("학생의 정원을 초과하였습니다.");
+            } else {
 				System.out.println("입력오류, 다시입력하세요.");
 			}
 		}
 	}
 }
-				
-				
-			/*	if (input == 2) {
-				claA.printName();
-			} else if (input == 3) {
-				claA.printAvg();
-			} else if (input == 4) {
-				claA.printPotg();
-			} else if (input == 5) {
-				System.out.println("시스템 종료");
-			}
-			else {
-				System.out.println("입력오류, 다시입력하세요.");
-			} */
-
-
 
 		/*while (input != 5) {
 			System.out.println("학생 관리 프로그램");

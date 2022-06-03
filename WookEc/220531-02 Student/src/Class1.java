@@ -28,7 +28,7 @@ public class Class1 {
         for (Student student : stu) {
             System.out.println(String.format("%s  ", student.getName()));
         }
-        System.out.println("----------------------\n");
+        System.out.println("----------------------");
     }
 
     void printAvg() {
@@ -37,11 +37,11 @@ public class Class1 {
         for (Student student : stu) {
             System.out.println(String.format("%s  ",student.getAverage()));
         }
-        System.out.println("----------------------\n");
+        System.out.println("----------------------");
     }
 
     void printPotg() {
-        System.out.println("----------------------\n");
+        System.out.println("----------------------");
         System.out.println("potg");
         if (stu[0].getAverage() >= stu[1].getAverage() && stu[0].getAverage() >= stu[2].getAverage()) {
             System.out.println(String.format("%s  %d", stu[0].getName(), stu[0].getAverage()));
@@ -52,6 +52,6 @@ public class Class1 {
         else {
             System.out.println(String.format("%s  %d", stu[2].getName(), stu[2].getAverage()));
         }
-        System.out.println("----------------------\n");
+        System.out.println("----------------------");
     }
 }
