@@ -15,7 +15,12 @@ creat java project -> 프로잭트 이름 설정 -> 버전 확인 -> next
 
 디버깅 하는법 -> 차트 왼쪽부위 파란 영역 더블클릭 -> 좌측상단 벌레모양 클릭
 
-ctrl + space 기억
+ctrl + space 기억 (자동완성)
+ctrl + shift + o (import 자동추가)
+shift + enter
+ctrl + / 범위 드래그 행 주석
+ctrl + shift + / 범위 드래그 범위 주
+
 
 window -> perspective -> reset perspective 이클립스 보여지는 창이 정렬이 안되었을때? 원하는
 창들이 없을때 초기화 하는 방법.
