@@ -20,7 +20,13 @@ ctrl + shift + o (import 자동추가)
 shift + enter
 ctrl + / 범위 드래그 행 주석
 ctrl + shift + / 범위 드래그 범위 주
+ctrl + shift + f 자동 간격맞춤
 
 
 window -> perspective -> reset perspective 이클립스 보여지는 창이 정렬이 안되었을때? 원하는
 창들이 없을때 초기화 하는 방법.
+
+package
+
+모든 패키지의 이름은 영어 소문자로 할것. (특수문자 금지)
+그리고 패키지 안에 패키지를 만들때는 소속한다 '현패키지.추가할패키지' 이런식으로 이름을 작성할것.
